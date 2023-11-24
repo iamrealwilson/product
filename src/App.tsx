@@ -19,7 +19,7 @@ function App() {
 							key={key}
 							render={() => {
 								if (isProtected && !userDetails) return <Redirect to={ROUTES.SIGNIN.path} />;
-								else if (!isProtected && !userDetails) return <Redirect to={ROUTES.BROWSE.path} />;
+								else if (!isProtected && userDetails) return <Redirect to={ROUTES.BROWSE.path} />;
 								else return page;
 							}}
 						/>
