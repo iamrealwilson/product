@@ -10,7 +10,7 @@ type Routes = {
 
 export const ROUTES: Routes = {
 	HOME: { path: '/', page: <Home />, isProtected: false },
-	BROWSE: { path: '/browse', page: <Browse />, isProtected: true },
-	SIGNUP: { path: '/signup', page: <Signup />, isProtected: false },
-	SIGNIN: { path: '/signin', page: <Signin />, isProtected: false }
+	BROWSE: { path: '/browse', page: <Browse />, isProtected: true},
+	SIGNUP: { path: '/signup', page: <Signup />, isProtected: false},
+	SIGNIN: { path: '/signin', page: <Signin />, isProtected: false}
 };
