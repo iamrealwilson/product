@@ -80,155 +80,175 @@ export const genreList = {
 export const genreMovieList = 
 {
 	  "genres": [
-		{
-		  "id": 90101,
-		  "name": "Reviewer on Political Part 1"
-		},
-		{
-		  "id": 90102,
-		  "name": "Reviewer on Political Part 2"
-		},
-		{
-		  "id": 90103,
-		  "name": "Reviewer on Political Part 3"
-		},
-		{
-		  "id": 90104,
-		  "name": "Reviewer on Political Part 4"
-		},
-		{
-		  "id": 90105,
-		  "name": "Reviewer on Political Part 5"
-		},
-		{
-		  "id": 90106,
-		  "name": "Reviewer on Taxation Part 1"
-		},
-		{
-		  "id": 90107,
-		  "name": "Reviewer on Taxation Part 2"
-		},
-		{
-		  "id": 90108,
-		  "name": "Reviewer on Taxation Part 3"
-		},
-		{
-		  "id": 90109,
-		  "name": "Reviewer on Taxation Part 4"
-		},
-		{
-		  "id": 90110,
-		  "name": "Reviewer on Taxation Part 5"
-		},
-		{
-		  "id": 90111,
-		  "name": "Reviewer on Commercial Part 1"
-		},
-		{
-		  "id": 90112,
-		  "name": "Reviewer on Taxation Part 2"
-		},
-		{
-		  "id": 90113,
-		  "name": "Reviewer on Taxation Part 3"
-		},
-		{
-		  "id": 90114,
-		  "name": "Reviewer on Taxation Part 4"
-		},
-		{
-		  "id": 90115,
-		  "name": "Reviewer on Taxation Part 5"
-		},
-		{
-		  "id": 90116,
-		  "name": "Reviewer on Civil Part 1"
-		},
-		{
-		  "id": 90117,
-		  "name": "Reviewer on Civil Part 2"
-		},
-		{
-		  "id": 90118,
-		  "name": "Reviewer on Civil Part 2"
-		},
-		{
-		  "id": 90119,
-		  "name": "Reviewer on Civil Part 3"
-		},
-		{
-		  "id": 90120,
-		  "name": "Reviewer on Civil Part 4"
-		},
-		{
-		  "id": 90121,
-		  "name": "Reviewer on Civil Part 5"
-		},
-		{
-		  "id": 90122,
-		  "name": "Reviewer on Labort Part 1"
-		},
-		{
-		  "id": 90123,
-		  "name": "Reviewer on Labort Part 2"
-		},
-		{
-		  "id": 90124,
-		  "name": "Reviewer on Labort Part 3"
-		},
-		{
-		  "id": 90125,
-		  "name": "Reviewer on Criminal Part 1"
-		},
-		{
-		  "id": 90126,
-		  "name": "Reviewer on Criminal Part 2"
-		},
-		{
-		  "id": 90127,
-		  "name": "Reviewer on Criminal Part 3"
-		},
-		{
-		  "id": 90128,
-		  "name": "Reviewer on Criminal Part 4"
-		},
-		{
-		  "id": 90129,
-		  "name": "Reviewer on Criminal Part 5"
-		},
-		{
-		  "id": 90130,
-		  "name": "Reviewer on Remedial Part 1"
-		},
-		{
-		  "id": 90131,
-		  "name": "Reviewer on Remedial Part 2"
-		},
-		{
-		  "id": 90132,
-		  "name": "Reviewer on Remedial Part 3"
-		},
-		{
-		  "id": 90133,
-		  "name": "Reviewer on Remedial Part 4"
-		},
-		{
-		  "id": 90135,
-		  "name": "Reviewer on Remedial Part 5"
-		},
-		{
-		  "id": 90136,
-		  "name": "Reviewer on Legal Ethics Part 1"
-		},
-		{
-		  "id": 90137,
-		  "name": "Reviewer on Legal Ethics Part 2"
-		},
-		{
-		  "id": 90138,
-		  "name": "Reviewer on Legal Ethics Part 3"
-		}
-	  ]
+    {
+      "id": 1001,
+      "name": "Politcal Part 1"
+    },
+    {
+      "id": 1002,
+      "name": "Political Part 2"
+    },
+    {
+      "id": 1003,
+      "name": "Political Part 3"
+    },
+    {
+      "id": 1004,
+      "name": "Political Part 4"
+    },
+    {
+      "id": 1005,
+      "name": "Political Part 5"
+    },
+    {
+      "id": 1006,
+      "name": "Taxation Part 1"
+    },
+    {
+      "id": 1007,
+      "name": "Taxation Part 2"
+    },
+    {
+      "id": 1008,
+      "name": "Taxation Part 3"
+    },
+    {
+      "id": 1009,
+      "name": "Taxation Part 4"
+    },
+    {
+      "id": 1100,
+      "name": "Taxation Part 5"
+    },
+    {
+      "id": 1110,
+      "name": "Commercial Part 1"
+    },
+    {
+      "id": 1120,
+      "name": "Commercial Part 2"
+    },
+    {
+      "id": 1130,
+      "name": "Commercial Part 3"
+    },
+    {
+      "id": 1140,
+      "name": "Commercial Part 4"
+    },
+    {
+      "id": 1150,
+      "name": "Commercial Part 5"
+    },
+    {
+      "id": 1160,
+      "name": "Civil Part 1"
+    },
+    {
+      "id": 1170,
+      "name": "Civil Part 2"
+    },
+    {
+      "id": 1180,
+      "name": "Civil Part 2"
+    },
+    {
+      "id": 1190,
+      "name": "Civil Part 3"
+    },
+    {
+      "id": 1200,
+      "name": "Civil Part 4"
+    },
+    {
+      "id": 1210,
+      "name": "Civil Part 5"
+    },
+    {
+      "id": 1220,
+      "name": "Labort Part 1"
+    },
+    {
+      "id": 1230,
+      "name": "Labort Part 2"
+    },
+    {
+      "id": 1240,
+      "name": "Labort Part 3"
+    },
+    {
+      "id": 20300,
+      "name": "Judge Campanilla Criminal Part 1"
+    },
+    {
+      "id": 20301,
+      "name": "Judge Campanilla Criminal Part 2"
+    },
+    {
+      "id": 20302,
+      "name": "Judge Campanilla Criminal Part 3"
+    },
+    {
+      "id": 20303,
+      "name": "Judge Campanilla Criminal Part 4"
+    },
+    {
+      "id": 20304,
+      "name": "Judge Campanilla Criminal Part 5"
+    },
+	 {
+      "id": 20305,
+      "name": "Judge Campanilla Criminal Part 6"
+    },
+    {
+      "id": 20306,
+      "name": "Judge Campanilla Criminal Part 7"
+    },
+    {
+      "id": 20307,
+      "name": "Judge Campanilla Criminal Part 8"
+    },
+    {
+      "id": 20303,
+      "name": "Judge Campanilla Criminal Part 4"
+    },
+    {
+      "id": 20304,
+      "name": "Judge Campanilla Criminal Part 5"
+    },
+    {
+      "id": 1300,
+      "name": "Remedial Part 1"
+    },
+    {
+      "id": 1310,
+      "name": "Remedial Part 2"
+    },
+    {
+      "id": 1320,
+      "name": "Remedial Part 3"
+    },
+    {
+      "id": 1330,
+      "name": "Remedial Part 4"
+    },
+    {
+      "id": 1350,
+      "name": "Remedial Part 5"
+    },
+    {
+      "id": 1360,
+      "name": "Legal Ethics Part 1"
+    },
+    {
+      "id": 1370,
+      "name": "Legal Ethics Part 2"
+    },
+    {
+      "id": 1380,
+      "name": "Legal Ethics Part 3"
+    }
+  ]
 };
 
 
@@ -332,24 +352,44 @@ export const genreSubjectList = [
       "name": "Labort Part 3"
     },
     {
-      "id": 1250,
-      "name": "Criminal Part 1"
+      "id": 20300,
+      "name": "Judge Campanilla Criminal Part 1"
     },
     {
-      "id": 1260,
-      "name": "Criminal Part 2"
+      "id": 20301,
+      "name": "Judge Campanilla Criminal Part 2"
     },
     {
-      "id": 1270,
-      "name": "Criminal Part 3"
+      "id": 20302,
+      "name": "Judge Campanilla Criminal Part 3"
     },
     {
-      "id": 1280,
-      "name": "Criminal Part 4"
+      "id": 20303,
+      "name": "Judge Campanilla Criminal Part 4"
     },
     {
-      "id": 1290,
-      "name": "Criminal Part 5"
+      "id": 20304,
+      "name": "Judge Campanilla Criminal Part 5"
+    },
+	 {
+      "id": 20305,
+      "name": "Judge Campanilla Criminal Part 6"
+    },
+    {
+      "id": 20306,
+      "name": "Judge Campanilla Criminal Part 7"
+    },
+    {
+      "id": 20307,
+      "name": "Judge Campanilla Criminal Part 8"
+    },
+    {
+      "id": 20303,
+      "name": "Judge Campanilla Criminal Part 4"
+    },
+    {
+      "id": 20304,
+      "name": "Judge Campanilla Criminal Part 5"
     },
     {
       "id": 1300,
@@ -391,20 +431,36 @@ export const SECTIONS: Sections = {
 	movies: {
 		sections: [
 			{
-				title: 'Criminal Part 1',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
+				title: 'Judge Campanilla Criminal Part 1',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20300&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Criminal Part 2',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
+				title: 'Judge Campanilla Criminal Part 2',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20301&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Criminal Part 3',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
+				title: 'Judge Campanilla Criminal Part 3',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20302&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Criminal Part 4',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
+				title: 'Judge Campanilla Criminal Part 4',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20303&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Judge Campanilla Criminal Part 5 ',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20304&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Judge Campanilla Criminal Part 6',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20305&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Judge Campanilla Criminal Part 7',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20306&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Judge Campanilla Criminal Part 8',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20307&with_watch_providers=8&watch_region=PH`
 			},
 			{
 				title: 'Reviewer on Political Part 1',
@@ -523,40 +579,40 @@ export const SECTIONS: Sections = {
 	series: {
 		sections: [
 			{
-				title: 'Criminal Part 1',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
+				title: 'Judge Campanilla Criminal Part 1',
+				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20300&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Criminal Part 2',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
+				title: 'Judge Campanilla Criminal Part 2',
+				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20301&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Criminal Part 3',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
+				title: 'Judge Campanilla Criminal Part 3',
+				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20302&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Criminal Part 4',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
+				title: 'Judge Campanilla Criminal Part 4',
+				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20303&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Political Part 1',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
+				title: 'Judge Campanilla Criminal Part 5',
+				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20304&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Political Part 2',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
+				title: 'Judge Campanilla Criminal Part 6',
+				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20305&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Political Part 3',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
+				title: 'Judge Campanilla Criminal Part 7',
+				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20306&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Political Part 4',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
+				title: 'Judge Campanilla Criminal Part 8',
+				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20307&with_watch_providers=8&watch_region=PH`
 			},
 			{
 				title: 'Reviewer on Commercial Part 1',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
+				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20308&with_watch_providers=8&watch_region=PH`
 			},
 			{
 				title: 'Reviewer on Commercial Part 2',
