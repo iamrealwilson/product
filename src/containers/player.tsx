@@ -24,7 +24,7 @@ function PlayerContainer({ playing, setPlaying }: PlayerContainerType) {
 					<p className="paused-text">Paused</p>
 				</React.Fragment>
 			)}
-			<Player.Video playingDetails={playing} setIsPaused={setIsPaused} />
+			<Player.Video setIsPaused={setIsPaused} />
 			<Player.Back onClick={() => setPlaying()} />
 			<LockBody />
 		</Player>

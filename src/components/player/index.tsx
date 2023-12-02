@@ -29,10 +29,8 @@ Player.Title = function PlayerTitle({ children, ...restProps }: ComponentProp) {
 };
 
 Player.Video = function PlayerVideo(
-	{ playingDetails, setIsPaused, ...restProps }: ComponentProp) 
+	{ setIsPaused, ...restProps }: ComponentProp) 
 {
-    console.log(playingDetails);
-	console.log("**"+restProps);
 	return (
 		<Video {...restProps}>
 			<ReactPlayer
