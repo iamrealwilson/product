@@ -2,7 +2,14 @@ import React from 'react';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import { Container, Overlay, Details, Title, Video, Back } from './styles/player';
 import ReactPlayer from 'react-player';
-import { ComponentProp } from '../../constants/types';
+import { ShowOverview, ComponentProp } from '../../constants/types';
+
+type VideoProp = {
+	playerRef: React.RefObject<ReactPlayer>;
+	playingDetails: ShowOverview;
+	setIsPaused: boolean;
+	[x: string]: any;
+};
 
 function Player({ children, ...restProps }: ComponentProp) {
 	return <Container {...restProps}>{children}</Container>;
@@ -28,11 +35,13 @@ Player.Title = function PlayerTitle({ children, ...restProps }: ComponentProp) {
 	return <Title {...restProps}>{children}</Title>;
 };
 
-Player.Video = function PlayerVideo({ setIsPaused, ...restProps }: ComponentProp) {
+Player.Video = function PlayerVideo(
+	{ playingDetails, setIsPaused, ...restProps }: VideoProp) 
+{
 	return (
 		<Video {...restProps}>
 			<ReactPlayer
-				url="/videos/complexcrime.mp4"
+				url={`https://www.youtube.com/watch?v=${playingDetails.url}`}
 				className="playing-video"
 				width="100%"
 				height="100%"

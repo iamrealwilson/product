@@ -23,6 +23,7 @@ function Browse() {
 	const [ playing, setPlaying ] = useState<ShowOverview | null | undefined>();
 	const [ detailsTrailer, setDetailsTrailer ] = useState();
 	const [ heroTrailer, setHeroTrailer ] = useState<string | null | undefined>();
+    const [ videoPlayerMiniSeries, setVideoPlayerMiniSeries ] = useState<string | null | undefined>();
 	const [ trailerDisplayed, setTrailerDisplayed ] = useState<TrailerDisplayed | null | undefined>();
 	const [ isMuted, setIsMuted ] = useState(true);
 	const [ category, setCategory ] = useState('series');

@@ -13,6 +13,7 @@ type VideoProp = {
 	setHeroTrailer: (heroTrailer?: string | null) => void;
 	[x: string]: any;
 };
+
 function Hero({ children, ...restProps }: ComponentProp) {
 	return <Container {...restProps}>{children}</Container>;
 }

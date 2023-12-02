@@ -29,6 +29,7 @@ export interface ShowOverview {
 	[x: string]: any;
 }
 
+
 export interface ShowDetails extends ShowOverview {
 	genres: Array<{ id: number; name: string }>;
 	created_by?: Array<{ id: number; credit_id: string; name: string; gender: number; profile_path: string | null }>;

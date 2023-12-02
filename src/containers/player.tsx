@@ -7,9 +7,10 @@ type PlayerContainerType = {
 	playing: ShowOverview;
 	setPlaying: (userDetails?: ShowOverview) => void;
 };
+
 function PlayerContainer({ playing, setPlaying }: PlayerContainerType) {
 	const [ isPaused, setIsPaused ] = useState();
-
+	
 	return (
 		<Player>
 			{isPaused && (
@@ -23,7 +24,7 @@ function PlayerContainer({ playing, setPlaying }: PlayerContainerType) {
 					<p className="paused-text">Paused</p>
 				</React.Fragment>
 			)}
-			<Player.Video setIsPaused={setIsPaused} />
+			<Player.Video playingDetails={playing} setIsPaused={setIsPaused} />
 			<Player.Back onClick={() => setPlaying()} />
 			<LockBody />
 		</Player>

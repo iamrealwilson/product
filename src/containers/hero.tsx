@@ -11,6 +11,7 @@ import ReactPlayer from 'react-player';
 type HeroContainerType = {
 	profile?: Profile;
 };
+
 function HeroContainer({ profile }: HeroContainerType) {
 	const [ banner, setBanner ] = useState<ShowOverview | null>();
 	const playerRef = useRef<ReactPlayer>(null);
@@ -21,6 +22,7 @@ function HeroContainer({ profile }: HeroContainerType) {
 		detailsTrailer: { setDetailsTrailer },
 		heroTrailer: { heroTrailer, setHeroTrailer }
 	} = usePlayer();
+
 	const windowWidth = window.innerWidth;
 
 	useEffect(
@@ -63,6 +65,7 @@ function HeroContainer({ profile }: HeroContainerType) {
 					setHeroTrailer={setHeroTrailer}
 				/>
 			)}
+			
 			{banner && (
 				<React.Fragment>
 					{banner.backdrop_path && !heroTrailer && <Hero.Banner src={banner.backdrop_path} windowWidth={windowWidth} />}
