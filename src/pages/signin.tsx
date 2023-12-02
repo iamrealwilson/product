@@ -26,8 +26,8 @@ function Signin() {
 				.signin({ email, password })
 				.then(({ authorization, data }: any) => {
 					setIsLoading(false);
-					localStorage.setItem('roseflix-auth', authorization);
-					localStorage.setItem('roseflix-user', JSON.stringify(data.userDetails));
+					localStorage.setItem('legalex-auth', authorization);
+					localStorage.setItem('legalex-user', JSON.stringify(data.userDetails));
 					setUserDetails(data.userDetails);
 				})
 				.catch(({ response }) => {
