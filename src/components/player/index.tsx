@@ -29,12 +29,18 @@ Player.Title = function PlayerTitle({ children, ...restProps }: ComponentProp) {
 };
 
 Player.Video = function PlayerVideo(
-	{ setIsPaused, ...restProps }: ComponentProp) 
+	{ playingDetails, setIsPaused, ...restProps }: ComponentProp) 
 {
+    console.log("***-"+playingDetails.poster_path);
+	var str = playingDetails.poster_path;
+	const startIndex = str.indexOf("/images/") + "/images/".length;
+    const endIndex = str.indexOf(".jpg");
+    const url = str.substring(startIndex, endIndex);
+	
 	return (
 		<Video {...restProps}>
 			<ReactPlayer
-				url={`https://www.youtube.com/watch?v=5ju_BUye0l8`}
+				url={`https://www.youtube.com/watch?v=${url}`}
 				className="playing-video"
 				width="100%"
 				height="100%"

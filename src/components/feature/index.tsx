@@ -3,10 +3,11 @@ import { ComponentProp } from '../../constants/types';
 import { Container, Item, Inner, Panel, Title, Description, Image } from './styles/feature';
 
 type FeatureProp = {
-	children: any;
+    children: any;
 	direction: string;
 	[x: string]: any;
 };
+
 function Feature({ children, direction, ...restProps }: FeatureProp) {
 	return (
 		<Feature.Item {...restProps}>
