@@ -5,8 +5,8 @@ import SubscribeContainer from './subscribe';
 function BannerContainer() {
 	return (
 		<Banner>
-			<Banner.Title>Unlimited movies, TV shows, and more.</Banner.Title>
-			<Banner.SubTitle>Watch anywhere. Cancel anytime.</Banner.SubTitle>
+			<Banner.Title>Reviews, Lectures, Videos and more.</Banner.Title>
+			<Banner.SubTitle>Watch anywhere. Watch anytime.</Banner.SubTitle>
 			<SubscribeContainer />
 		</Banner>
 	);

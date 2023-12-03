@@ -38,7 +38,7 @@ export const FEATURES = [
 		description: 'Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.',
 		video: '',
 		image: '/images/misc/Home-TV.jpg',
-		alt: 'Roseflix on TV'
+		alt: 'Legal Lex on TV'
 	},
 	{
 		id: 2,
@@ -46,7 +46,7 @@ export const FEATURES = [
 		description: 'Save your favorites easily and always have something to watch.',
 		video: '',
 		image: '/images/misc/Home-Mobile.jpg',
-		alt: 'Roseflix on mobile',
+		alt: 'Legal Lex on mobile',
 		direction: 'row-reverse'
 	},
 	{
@@ -54,7 +54,7 @@ export const FEATURES = [
 		title: 'Watch everywhere.',
 		description: 'Stream unlimited movies and TV shows on your phone, tablet, laptop and TV without paying more.',
 		image: '/images/misc/Home-IMac.jpg',
-		alt: 'Roseflix on different devices'
+		alt: 'Legal Lex on different devices'
 	}
 ];
 

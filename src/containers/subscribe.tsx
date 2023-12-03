@@ -14,7 +14,7 @@ function SubscribeContainer() {
 
 	return (
 		<Subscribe>
-			<Subscribe.Title>Ready to watch? Enter your email to create or restart your membership.</Subscribe.Title>
+			<Subscribe.Title>Ready to watch? Enter your email.</Subscribe.Title>
 			<Subscribe.Panel>
 				<Subscribe.Input
 					placeholder="Email address"
