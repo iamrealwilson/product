@@ -48,9 +48,47 @@ function Browse() {
 	useEffect(
 		() => {
 			try {
-				const endpoint =
-					category === 'series' ? SECTIONS.series.helpers.fetchTVGenres : SECTIONS.movies.helpers.fetchMovieGenres;
-				movieHttp.get(endpoint).then((response) => setGenres(() => response.data.genres ));
+				var endpoint = "";
+				var genres = {};
+				if (userDetails != null){
+				    console.log("Email --- " + userDetails.email);
+					if (userDetails.email == "c@c.com" || userDetails.email == "cc@c.com"){
+						endpoint =
+							category === 'series' ? SECTIONS.series.helpers.fetchTVGenres : SECTIONS.movies.helpers.fetchMovieGenres;
+					}
+					if (userDetails.email == "civ@civ.com" || userDetails.email == "cciv@civ.com"){
+						endpoint =
+							category === 'series' ? SECTIONS.series.helpers.fetchTVGenresCivil : SECTIONS.movies.helpers.fetchMovieGenres;
+					}
+					if (userDetails.email == "l@l.com" || userDetails.email == "ll@l.com"){
+						endpoint =
+							category === 'series' ? SECTIONS.series.helpers.fetchTVGenresLabor : SECTIONS.movies.helpers.fetchMovieGenres;
+					}
+					if (userDetails.email == "p@p.com" || userDetails.email == "pp@p.com"){
+						endpoint =
+							category === 'series' ? SECTIONS.series.helpers.fetchTVGenresPolitical : SECTIONS.movies.helpers.fetchMovieGenres;
+					}
+					if (userDetails.email == "le@le.com" || userDetails.email == "lle@le.com"){
+						endpoint =
+							category === 'series' ? SECTIONS.series.helpers.fetchTVGenresLegalEthics : SECTIONS.movies.helpers.fetchMovieGenres;
+					}
+					if (userDetails.email == "r@r.com" || userDetails.email == "rr@r.com"){
+						endpoint =
+							category === 'series' ? SECTIONS.series.helpers.fetchTVGenresRemedial : SECTIONS.movies.helpers.fetchMovieGenres;
+					}
+					if (userDetails.email == "cm@cm.com" || userDetails.email == "ccm@cm.com"){
+						endpoint =
+							category === 'series' ? SECTIONS.series.helpers.fetchTVGenresCommercial : SECTIONS.movies.helpers.fetchMovieGenres;
+					}
+					if (userDetails.email == "t@t.com" || userDetails.email == "tt@t.com"){
+						endpoint =
+							category === 'series' ? SECTIONS.series.helpers.fetchTVGenresTaxation : SECTIONS.movies.helpers.fetchMovieGenres;
+					}
+				}
+				console.log("Endpint--- "+endpoint);
+				movieHttp.get(endpoint).then((response) => 
+				  withCommonLog(response)
+				);
 				setSectionDisplayed(30);
 			} catch ({ response }) {
 				console.log(response);
@@ -58,12 +96,17 @@ function Browse() {
 		},
 		[ category, setSectionDisplayed ]
 	);
+	
+	function withCommonLog(response : any){
+		console.log(response.data.genres);
+		setGenres(() => response.data.genres );
+	}
 
 	const handleOnScroll = ({ clientHeight, scrollTop, scrollHeight }: any) => {
 		const bottom = Math.ceil(clientHeight + scrollTop) >= scrollHeight - 300;
 		if (bottom) {
 			setSectionDisplayed((sectionDisplayed) => {
-				const newDisplayed = sectionDisplayed + 30;
+				const newDisplayed = sectionDisplayed + 5;
 				return newDisplayed <= SECTIONS[category].sections.length ? newDisplayed : sectionDisplayed;
 			});
 		}

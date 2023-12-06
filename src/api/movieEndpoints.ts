@@ -79,26 +79,30 @@ export const genreList = {
 
 export const genreMovieList = 
 {
-	  "genres": [
+	"genres": [
     {
-      "id": 1001,
-      "name": "Politcal Part 1"
+      "id": 30300,
+      "name": "Politcal Atty Loanzon - Lecture 1"
     },
     {
-      "id": 1002,
-      "name": "Political Part 2"
+      "id": 30301,
+      "name": "Politcal Atty Loanzon - Lecture 2"
     },
     {
-      "id": 1003,
-      "name": "Political Part 3"
+      "id": 30302,
+      "name": "Politcal Atty Loanzon - Lecture 3"
     },
     {
-      "id": 1004,
-      "name": "Political Part 4"
+      "id": 30303,
+      "name": "Politcal Atty Loanzon - Lecture 4"
     },
     {
-      "id": 1005,
-      "name": "Political Part 5"
+      "id": 30304,
+      "name": "Politcal Atty Loanzon - Lecture 5"
+    },
+    {
+      "id": 30305,
+      "name": "Politcal Atty Loanzon - Lecture 6"
     },
     {
       "id": 1006,
@@ -256,28 +260,28 @@ export const genreSubjectList = [
 {
   "genres": [
     {
-      "id": 1001,
-      "name": "Politcal Part 1"
+      "id": 30300,
+      "name": "Politcal Atty Loanzon - Lecture 1"
     },
     {
-      "id": 1002,
-      "name": "Political Part 2"
+      "id": 30301,
+      "name": "Politcal Atty Loanzon - Lecture 2"
     },
     {
-      "id": 1003,
-      "name": "Political Part 3"
+      "id": 30302,
+      "name": "Politcal Atty Loanzon - Lecture 3"
     },
     {
-      "id": 1004,
-      "name": "Political Part 4"
+      "id": 30303,
+      "name": "Politcal Atty Loanzon - Lecture 4"
     },
     {
-      "id": 1005,
-      "name": "Political Part 5"
+      "id": 30304,
+      "name": "Politcal Atty Loanzon - Lecture 5"
     },
     {
-      "id": 1006,
-      "name": "Taxation Part 1"
+      "id": 30305,
+      "name": "Politcal Atty Loanzon - Lecture 6"
     },
     {
       "id": 1007,
@@ -463,108 +467,28 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20307&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Political Part 1',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=18&with_watch_providers=8&watch_region=PH`
+				title: 'Political Atty Loanzon - Lecture 1',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30300&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Political Part 2',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=14&with_watch_providers=8&watch_region=PH`
+				title: 'Political Atty Loanzon - Lecture 2',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30301&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Political Part 3',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80&with_watch_providers=8&watch_region=PH`
+				title: 'Political Atty Loanzon - Lecture 3',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30302&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Political Part 4',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=9648&with_watch_providers=8&watch_region=PH`
+				title: 'Political Atty Loanzon - Lecture 4',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30303&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Commercial Part 1',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=28&with_watch_providers=8&watch_region=PH`
+				title: 'Political Atty Loanzon - Lecture 5',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30304&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Commercial Part 2',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=35&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Commercial Part 3',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=16&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Commercial Part 4',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=12&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Taxation Part 1',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=10751&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Taxation Part 2',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=10770&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Taxation Part 3',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=99&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Taxation Part 4',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=10752&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Civil Part 1',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=36&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Civil Part 2',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=37&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Civil Part 3',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=53&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Civil Part 4',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=53&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Labor Part 1',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=53&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Labor Part 2',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=53&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Labor Part 3',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=53&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Labor Part 4',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=53&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Remedial Part 1',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=53&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Remedial Part 2',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=53&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Remedial Part 3',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=53&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Remedial Part 4',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=53&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Legal Ethics Part 1',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=53&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Legal Ethics Part 2',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=53&with_watch_providers=8&watch_region=PH`
+				title: 'Political Atty Loanzon - Lecture 6',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30305&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
@@ -580,132 +504,76 @@ export const SECTIONS: Sections = {
 		sections: [
 			{
 				title: 'Judge Campanilla Criminal Part 1',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20300&with_watch_providers=8&watch_region=PH`
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20300&with_watch_providers=8&watch_region=PH`
 			},
 			{
 				title: 'Judge Campanilla Criminal Part 2',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20301&with_watch_providers=8&watch_region=PH`
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20301&with_watch_providers=8&watch_region=PH`
 			},
 			{
 				title: 'Judge Campanilla Criminal Part 3',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20302&with_watch_providers=8&watch_region=PH`
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20302&with_watch_providers=8&watch_region=PH`
 			},
 			{
 				title: 'Judge Campanilla Criminal Part 4',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20303&with_watch_providers=8&watch_region=PH`
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20303&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Judge Campanilla Criminal Part 5',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20304&with_watch_providers=8&watch_region=PH`
+				title: 'Judge Campanilla Criminal Part 5 ',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20304&with_watch_providers=8&watch_region=PH`
 			},
 			{
 				title: 'Judge Campanilla Criminal Part 6',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20305&with_watch_providers=8&watch_region=PH`
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20305&with_watch_providers=8&watch_region=PH`
 			},
 			{
 				title: 'Judge Campanilla Criminal Part 7',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20306&with_watch_providers=8&watch_region=PH`
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20306&with_watch_providers=8&watch_region=PH`
 			},
 			{
 				title: 'Judge Campanilla Criminal Part 8',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20307&with_watch_providers=8&watch_region=PH`
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20307&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Commercial Part 1',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20308&with_watch_providers=8&watch_region=PH`
+				title: 'Political Atty Loanzon - Lecture 1',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30300&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Commercial Part 2',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
+				title: 'Political Atty Loanzon - Lecture 2',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30301&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Commercial Part 3',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
+				title: 'Political Atty Loanzon - Lecture 3',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30302&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Commercial Part 4',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
+				title: 'Political Atty Loanzon - Lecture 4',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30303&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Taxation Part 1',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
+				title: 'Political Atty Loanzon - Lecture 5',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30304&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Reviewer on Taxation Part 2',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Taxation Part 3',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Taxation Part 4',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Civil Part 1',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Civil Part 2',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Civil Part 3',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Civil Part 4',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Labor Part 1',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Labor Part 2',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Labor Part 3',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Labor Part 4',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Remedial Part 1',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Remedial Part 2',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Remedial Part 3',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Remedial Part 4',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Legal Ethics Part 1',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Reviewer on Legal Ethics Part 2',
-				endpoint: `/discover/tv?api_key=${API_KEY}&with_genres=20328&with_watch_providers=8&watch_region=PH`
+				title: 'Political Atty Loanzon - Lecture 6',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30305&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
 			searchTV: `/search/tv?api_key=${API_KEY}&query={{query}}`,
 			fetchTVGenres: `/genre/tv/list?api_key=${API_KEY}`,
+			fetchTVGenresCommercial: `/genre/tv/com/list?api_key=${API_KEY}`,
+			fetchTVGenresRemedial: `/genre/tv/rem/list?api_key=${API_KEY}`,
+			fetchTVGenresCivil: `/genre/tv/civ/list?api_key=${API_KEY}`,
+			fetchTVGenresLegalEthics: `/genre/tv/le/list?api_key=${API_KEY}`,
+			fetchTVGenresTaxation: `/genre/tv/tax/list?api_key=${API_KEY}`,
+			fetchTVGenresLabor: `/genre/tv/labor/list?api_key=${API_KEY}`,
+			fetchTVGenresPolitical: `/genre/tv/political/list?api_key=${API_KEY}`,
 			fetchTVVideos: `/tv/{{tv_id}}/videos?api_key=${API_KEY}`,
 			fetchTVDetails: `/tv/{{tv_id}}?api_key=${API_KEY}`,
 			fetchTVAggregateCredits: `/tv/{{tv_id}}/aggregate_credits?api_key=${API_KEY}`,
 			fetchTVRecommendations: `/tv/{{tv_id}}/recommendations?api_key=${API_KEY}`,
+			fetchTVSeasonPolitical: `/tv/{{tv_id}}/season/{{season_number}}?api_key=${API_KEY}`,
 			fetchTVSeason: `/tv/{{tv_id}}/season/{{season_number}}?api_key=${API_KEY}`
 		}
 	}
