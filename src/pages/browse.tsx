@@ -147,7 +147,7 @@ function Browse() {
 					) : (
 						<React.Fragment>
 							<HeroContainer profile={profile} />
-							<SectionsContainer category={category} sectionDisplayed={sectionDisplayed} />
+							<SectionsContainer userDetails={userDetails} category={category} sectionDisplayed={sectionDisplayed} />
 						</React.Fragment>
 					)}
 
