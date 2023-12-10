@@ -15,7 +15,6 @@ function PlayerContainer({ playing, setPlaying }: PlayerContainerType) {
 		<Player>
 			{isPaused && (
 				<React.Fragment>
-					<Player.Overlay />
 					<Player.Details>
 						<p>You're watching</p>
 						<Player.Title>{playing.name || playing.title || playing.original_name}</Player.Title>
