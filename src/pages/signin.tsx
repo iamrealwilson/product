@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Scrollbar from 'react-scrollbars-custom';
 import { Form } from '../components';
 import { ROUTES } from '../constants/routes';
@@ -17,6 +17,7 @@ function Signin() {
 	const emailInvalid = isTouched.email && email === '';
 	const passwordInvalid = isTouched.password && password === '';
 	const canProceed = password && email && !passwordInvalid && !emailInvalid;
+    const inputRef = useRef<HTMLLinkElement>(null);
 
 	const handleSignin = (e: any) => {
 		e.preventDefault();
@@ -45,6 +46,12 @@ function Signin() {
 		}
 	};
 
+	useEffect(() => {
+		if (inputRef.current !== null && !errorMsg) {
+		  inputRef.current.focus();
+		}
+	  }, [errorMsg]);
+  
 	return (
 		<Scrollbar noDefaultStyles className="main-scrollbar" onScroll={({ scrollTop }: any) => handleOnScroll(scrollTop)}>
 			<HeaderContainer logoOnly isHeaderShown={isHeaderShown} />
@@ -53,7 +60,9 @@ function Signin() {
 				<Form.FormGroup onSubmit={handleSignin} method="POST">
 					{errorMsg && <Form.Error className="boxed">{errorMsg}</Form.Error>}
 					<Form.Input
+					    ref={inputRef}
 						placeholder="Email or phone number"
+						autoComplete="off"
 						value={email}
 						onChange={({ target }: any) => {
 							if (!isTouched.email)

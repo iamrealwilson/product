@@ -489,6 +489,30 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Political Atty Loanzon - Lecture 6',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30305&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Taxation Atty. Lim - Lecture 1',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40301&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Taxation Atty. Lim - Lecture 2',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40302&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Taxation Atty. Lim - Lecture 3',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40303&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Taxation Atty. Lim - Lecture 4',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40304&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Taxation Atty. Lim - Lecture 5',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40305&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Taxation Atty. Lim- Lecture 6',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40306&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
@@ -557,6 +581,30 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Political Atty Loanzon - Lecture 6',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30305&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Taxation Atty. Lim - Lecture 1',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40301&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Taxation Atty. Lim - Lecture 2',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40302&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Taxation Atty. Lim - Lecture 3',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40303&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Taxation Atty. Lim - Lecture 4',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40304&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Taxation Atty. Lim - Lecture 5',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40305&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Taxation Atty. Lim- Lecture 6',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40306&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {

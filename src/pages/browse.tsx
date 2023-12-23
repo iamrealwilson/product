@@ -80,7 +80,7 @@ function Browse() {
 						endpoint =
 							category === 'series' ? SECTIONS.series.helpers.fetchTVGenresCommercial : SECTIONS.movies.helpers.fetchMovieGenres;
 					}
-					if (userDetails.email == "t@t.com" || userDetails.email == "tt@t.com"){
+					if (userDetails.email == "tax@law.com" || userDetails.email == "xat@law.com"  || userDetails.email == "tax1@law.com"){
 						endpoint =
 							category === 'series' ? SECTIONS.series.helpers.fetchTVGenresTaxation : SECTIONS.movies.helpers.fetchMovieGenres;
 					}
