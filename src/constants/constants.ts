@@ -1,4 +1,4 @@
-export const IMAGE_BASE_URL = 'https://express-tmdb-api.onrender.com/images/';
+export const IMAGE_BASE_URL = 'https://e-tmdb-api.onrender.com/images/';
 export const IMAGE_SIZES = {
 	backdrop: {
 		small: 'w300',
