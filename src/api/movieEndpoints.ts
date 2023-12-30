@@ -467,51 +467,51 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20307&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Political Atty Loanzon - Lecture 1',
+				title: 'Political Atty Loanzon - Part 1',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30300&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Political Atty Loanzon - Lecture 2',
+				title: 'Political Atty Loanzon - Part 2',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30301&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Political Atty Loanzon - Lecture 3',
+				title: 'Political Atty Loanzon - Part 3',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30302&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Political Atty Loanzon - Lecture 4',
+				title: 'Political Atty Loanzon - Part 4',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30303&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Political Atty Loanzon - Lecture 5',
+				title: 'Political Atty Loanzon - Part 5',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30304&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Political Atty Loanzon - Lecture 6',
+				title: 'Political Atty Loanzon - Part 6',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30305&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Taxation Atty. Lim - Lecture 1',
+				title: 'Taxation Atty. Lim - Part 1',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40301&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Taxation Atty. Lim - Lecture 2',
+				title: 'Taxation Atty. Lim - Part 2',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40302&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Taxation Atty. Lim - Lecture 3',
+				title: 'Taxation Atty. Lim - Part 3',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40303&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Taxation Atty. Lim - Lecture 4',
+				title: 'Taxation Atty. Lim - Part 4',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40304&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Taxation Atty. Lim - Lecture 5',
+				title: 'Taxation Atty. Lim - Part 5',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40305&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Taxation Atty. Lim- Lecture 6',
+				title: 'Taxation Atty. Lim- Part 6',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40306&with_watch_providers=8&watch_region=PH`
 			}
 		],
@@ -583,27 +583,27 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30305&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Taxation Atty. Lim - Lecture 1',
+				title: 'Taxation Atty. Lim - Part 1',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40301&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Taxation Atty. Lim - Lecture 2',
+				title: 'Taxation Atty. Lim - Part 2',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40302&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Taxation Atty. Lim - Lecture 3',
+				title: 'Taxation Atty. Lim - Part 3',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40303&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Taxation Atty. Lim - Lecture 4',
+				title: 'Taxation Atty. Lim - Part 4',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40304&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Taxation Atty. Lim - Lecture 5',
+				title: 'Taxation Atty. Lim - Part 5',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40305&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Taxation Atty. Lim- Lecture 6',
+				title: 'Taxation Atty. Lim- Part 6',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40306&with_watch_providers=8&watch_region=PH`
 			}
 		],
