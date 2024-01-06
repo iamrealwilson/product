@@ -13,7 +13,7 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 	return (
 		<React.Fragment>
 			<Show.Sections>
-				{userDetails != null && (userDetails.email == "first@law.com" || userDetails.email == "law@law.com" || userDetails.email == "crim@law.com" || userDetails.email == "rcriminal@law.com" || userDetails.email == "dcriminal@law.com" || userDetails.email == "qcriminal@law.com") 
+				{userDetails != null && (userDetails.email == "c@c.com" || userDetails.email == "first@law.com" || userDetails.email == "law@law.com" || userDetails.email == "crim@law.com" || userDetails.email == "rcriminal@law.com" || userDetails.email == "dcriminal@law.com" || userDetails.email == "qcriminal@law.com") 
 				 ? 
 				 SECTIONS[category].sections.filter(section => section.title.includes("Criminal")).map((section, i) => {
 				                console.log("Criminal");
