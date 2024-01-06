@@ -513,6 +513,38 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Taxation Atty. Lim- Part 6',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40306&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Pearlito Campanilla - Part 1',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=50301&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Pearlito Campanilla - Part 2',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=50302&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Pearlito Campanilla - Part 3',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=50303&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Pearlito Campanilla - Part 4',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=50304&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Pearlito Campanilla - Part 5',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=50305&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Pearlito Campanilla - Part 6',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=50306&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Pearlito Campanilla - Part 7',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=50307&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Pearlito Campanilla - Part 8',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=50308&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
@@ -605,6 +637,38 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Taxation Atty. Lim- Part 6',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40306&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Pearlito Campanilla - Part 1',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=50301&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Pearlito Campanilla - Part 2',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=50302&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Pearlito Campanilla - Part 3',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=50303&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Pearlito Campanilla - Part 4',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=50304&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Pearlito Campanilla - Part 5',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=50305&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Pearlito Campanilla - Part 6',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=50306&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Pearlito Campanilla - Part 7',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=50307&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Pearlito Campanilla - Part 8',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=50308&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
