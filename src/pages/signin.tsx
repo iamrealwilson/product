@@ -60,7 +60,7 @@ function Signin() {
 				<Form.FormGroup onSubmit={handleSignin} method="POST">
 					{errorMsg && <Form.Error className="boxed">{errorMsg}</Form.Error>}
 					<Form.Input
-					    ref={inputRef}
+					    autoFocus
 						placeholder="Email or phone number"
 						autoComplete="off"
 						value={email}
@@ -99,9 +99,6 @@ function Signin() {
 						)}
 					</Form.Button>
 				</Form.FormGroup>
-				<Form.Text>
-					New to Legal Lex? <Form.Link to={ROUTES.SIGNUP.path}>Sign up now</Form.Link>.
-				</Form.Text>
 				<Form.TextSmall>This page is protected by Google reCAPTCHA to ensure you're not a bot.</Form.TextSmall>
 			</Form>
 			<FooterContainer />
