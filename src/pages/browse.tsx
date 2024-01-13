@@ -85,7 +85,6 @@ function Browse() {
 							category === 'series' ? SECTIONS.series.helpers.fetchTVGenresTaxation : SECTIONS.movies.helpers.fetchMovieGenres;
 					}
 				}
-				console.log("Endpint--- "+endpoint);
 				movieHttp.get(endpoint).then((response) => 
 				  withCommonLog(response)
 				);

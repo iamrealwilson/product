@@ -99,7 +99,9 @@ function Signin() {
 						)}
 					</Form.Button>
 				</Form.FormGroup>
-				<Form.TextSmall>This page is protected by Google reCAPTCHA to ensure you're not a bot.</Form.TextSmall>
+				<Form.Text>
+					New to Legallex? <Form.Link to={ROUTES.SIGNUP.path}>Sign up now</Form.Link>.
+				</Form.Text>
 			</Form>
 			<FooterContainer />
 		</Scrollbar>
