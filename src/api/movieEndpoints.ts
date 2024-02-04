@@ -545,6 +545,14 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Labor - Atty. Pearlito Campanilla - Part 8',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=50308&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Benedict Kato - Part 1',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=60301&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Benedict Kato - Part 2',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=60302&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
@@ -669,6 +677,14 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Labor - Atty. Pearlito Campanilla - Part 8',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=50308&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Benedict Kato - Part 1',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=60301&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Labor - Atty. Benedict Kato - Part 2',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=60302&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
