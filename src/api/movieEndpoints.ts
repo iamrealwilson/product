@@ -553,6 +553,14 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Labor - Atty. Benedict Kato - Part 2',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=60302&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Remedial - Dean Salvador Moya III - Part 1',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=70301&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Remedial - Dean Salvador Moya III - Part 2',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=70302&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
@@ -685,6 +693,14 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Labor - Atty. Benedict Kato - Part 2',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=60302&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Remedial - Dean Salvador Moya III - Part 1',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=70301&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Remedial - Dean Salvador Moya III - Part 2',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=70302&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
