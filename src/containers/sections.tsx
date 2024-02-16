@@ -50,7 +50,7 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 			     :
 				 userDetails != null && (userDetails.email == "polirem@law.com" || userDetails.email == "polirem1@law.com")
 				 ?
-				 SECTIONS[category].sections.filter(section => section.title.includes("Political") && section.title.includes("Remedial")).map((section, i) => {
+				 SECTIONS[category].sections.filter(section => section.title.includes("Political") && section.title.includes("Moya")).map((section, i) => {
 				                console.log("Package 4");
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
