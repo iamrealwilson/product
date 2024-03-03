@@ -467,6 +467,14 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20307&with_watch_providers=8&watch_region=PH`
 			},
 			{
+				title: 'Judge Campanilla Criminal Part 9',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20308&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Judge Campanilla Criminal Part 10',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20309&with_watch_providers=8&watch_region=PH`
+			},
+			{
 				title: 'Political Atty Loanzon - Part 1',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30300&with_watch_providers=8&watch_region=PH`
 			},
@@ -605,6 +613,14 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Judge Campanilla Criminal Part 8',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20307&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Judge Campanilla Criminal Part 9',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20308&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Judge Campanilla Criminal Part 10',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20309&with_watch_providers=8&watch_region=PH`
 			},
 			{
 				title: 'Political Atty Loanzon - Lecture 1',
