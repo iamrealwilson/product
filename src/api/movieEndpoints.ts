@@ -627,6 +627,10 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20309&with_watch_providers=8&watch_region=PH`
 			},
 			{
+				title: 'Judge Campanilla Criminal Part 11',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=20310&with_watch_providers=8&watch_region=PH`
+			},
+			{
 				title: 'Political Atty Loanzon - Lecture 1',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30300&with_watch_providers=8&watch_region=PH`
 			},
