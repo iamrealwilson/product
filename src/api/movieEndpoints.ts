@@ -579,8 +579,16 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=70302&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Civil - Atty. Judy Lardizabal - Part 1',
+				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 1',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80301&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 2',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80302&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 3',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80303&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
@@ -739,9 +747,18 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=70302&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Civil - Atty. Judy Lardizabal - Part 1',
+				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 1',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80301&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 2',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80302&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 3',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80303&with_watch_providers=8&watch_region=PH`
 			}
+			
 		],
 		helpers: {
 			searchTV: `/search/tv?api_key=${API_KEY}&query={{query}}`,
