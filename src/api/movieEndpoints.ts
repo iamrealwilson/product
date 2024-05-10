@@ -507,6 +507,10 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30305&with_watch_providers=8&watch_region=PH`
 			},
 			{
+				title: 'Political Atty Loanzon - Lecture 7',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30306&with_watch_providers=8&watch_region=PH`
+			},
+			{
 				title: 'Taxation Atty. Lim - Part 1',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40301&with_watch_providers=8&watch_region=PH`
 			},
@@ -589,6 +593,10 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 3',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80303&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Commercial Lectures - Dean Serge Ceniza - Part 1',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90001&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
@@ -675,6 +683,10 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30305&with_watch_providers=8&watch_region=PH`
 			},
 			{
+				title: 'Political Atty Loanzon - Lecture 7',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30306&with_watch_providers=8&watch_region=PH`
+			},
+			{
 				title: 'Taxation Atty. Lim - Part 1',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40301&with_watch_providers=8&watch_region=PH`
 			},
@@ -757,6 +769,10 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 3',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80303&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Commercial Lectures - Dean Serge Ceniza - Part 1',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90001&with_watch_providers=8&watch_region=PH`
 			}
 			
 		],
