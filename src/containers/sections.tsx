@@ -21,6 +21,12 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
+				 userDetails != null && (userDetails.email == "merc@law.com" || userDetails.email == "merc1@law.com"  || userDetails.email == "merc2@law.com")
+				 ?
+				 SECTIONS[category].sections.filter(section => section.title.includes("Commercial")).map((section, i) => {
+								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
+							})
+				 :
 				 userDetails != null && (userDetails.email == "sales@law.com" || userDetails.email == "sales1@law.com"  || userDetails.email == "sales2@law.com")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Civil")).map((section, i) => {
