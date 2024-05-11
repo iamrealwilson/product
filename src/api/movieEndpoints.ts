@@ -507,10 +507,6 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30305&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Political Atty Loanzon - Lecture 7',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30306&with_watch_providers=8&watch_region=PH`
-			},
-			{
 				title: 'Taxation Atty. Lim - Part 1',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=40301&with_watch_providers=8&watch_region=PH`
 			},
@@ -681,10 +677,6 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Political Atty Loanzon - Lecture 6',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30305&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: 'Political Atty Loanzon - Lecture 7',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=30306&with_watch_providers=8&watch_region=PH`
 			},
 			{
 				title: 'Taxation Atty. Lim - Part 1',
