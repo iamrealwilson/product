@@ -591,6 +591,18 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80303&with_watch_providers=8&watch_region=PH`
 			},
 			{
+				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 4',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80304&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 5',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80305&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 6',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80306&with_watch_providers=8&watch_region=PH`
+			},
+			{
 				title: 'Commercial Lectures - Dean Serge Ceniza - Part 1',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90001&with_watch_providers=8&watch_region=PH`
 			}
@@ -761,6 +773,18 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 3',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80303&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 4',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80304&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 5',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80305&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 6',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80306&with_watch_providers=8&watch_region=PH`
 			},
 			{
 				title: 'Commercial Lectures - Dean Serge Ceniza - Part 1',
