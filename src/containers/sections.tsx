@@ -21,7 +21,7 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "emil300ph@yahoo.com")
+				 userDetails != null && (userDetails.email == "emil@law.com")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
