@@ -47,7 +47,7 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 			     :
 				 userDetails != null && (userDetails.email == "tangaran@law.com")
 				 ?
-				 SECTIONS[category].sections.filter(section => section.title.includes("Civil") || section.title.includes("Commercial")).map((section, i) => {
+				 SECTIONS[category].sections.filter(section =>  section.title.includes("Labor") || section.title.includes("Remedial") || section.title.includes("Political") || section.title.includes("Taxation") || section.title.includes("Criminal") || section.title.includes("Civil") || section.title.includes("Commercial")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
