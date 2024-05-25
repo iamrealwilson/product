@@ -50,45 +50,10 @@ function Browse() {
 			try {
 				var endpoint = "";
 				var genres = {};
-				if (userDetails != null){
-				    console.log("Email --- " + userDetails.email);
-					if (userDetails.email == "c@c.com" || userDetails.email == "cc@c.com"){
-						endpoint =
-							category === 'series' ? SECTIONS.series.helpers.fetchTVGenres : SECTIONS.movies.helpers.fetchMovieGenres;
-					}
-					if (userDetails.email == "civ@civ.com" || userDetails.email == "cciv@civ.com"){
-						endpoint =
-							category === 'series' ? SECTIONS.series.helpers.fetchTVGenresCivil : SECTIONS.movies.helpers.fetchMovieGenres;
-					}
-					if (userDetails.email == "l@l.com" || userDetails.email == "ll@l.com"){
-						endpoint =
-							category === 'series' ? SECTIONS.series.helpers.fetchTVGenresLabor : SECTIONS.movies.helpers.fetchMovieGenres;
-					}
-					if (userDetails.email == "p@p.com" || userDetails.email == "pp@p.com"){
-						endpoint =
-							category === 'series' ? SECTIONS.series.helpers.fetchTVGenresPolitical : SECTIONS.movies.helpers.fetchMovieGenres;
-					}
-					if (userDetails.email == "le@le.com" || userDetails.email == "lle@le.com"){
-						endpoint =
-							category === 'series' ? SECTIONS.series.helpers.fetchTVGenresLegalEthics : SECTIONS.movies.helpers.fetchMovieGenres;
-					}
-					if (userDetails.email == "r@r.com" || userDetails.email == "rr@r.com"){
-						endpoint =
-							category === 'series' ? SECTIONS.series.helpers.fetchTVGenresRemedial : SECTIONS.movies.helpers.fetchMovieGenres;
-					}
-					if (userDetails.email == "cm@cm.com" || userDetails.email == "ccm@cm.com"){
-						endpoint =
-							category === 'series' ? SECTIONS.series.helpers.fetchTVGenresCommercial : SECTIONS.movies.helpers.fetchMovieGenres;
-					}
-					if (userDetails.email == "tax@law.com" || userDetails.email == "xat@law.com"  || userDetails.email == "tax1@law.com"){
-						endpoint =
-							category === 'series' ? SECTIONS.series.helpers.fetchTVGenresTaxation : SECTIONS.movies.helpers.fetchMovieGenres;
-					}
-				}
 				movieHttp.get(endpoint).then((response) => 
 				  withCommonLog(response)
 				);
-				setSectionDisplayed(30);
+				setSectionDisplayed(5);
 			} catch ({ response }) {
 				console.log(response);
 			}
