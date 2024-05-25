@@ -75,7 +75,7 @@ function Browse() {
 				const newDisplayed = sectionDisplayed + 5;
 				console.log('newDisplayed --' + newDisplayed);
 				console.log('SECTIONS[category].sections.length --' + SECTIONS[category].sections.length);
-				return newDisplayed <= SECTIONS[category].sections.length ? newDisplayed : sectionDisplayed;
+				return newDisplayed <= SECTIONS[category].sections.length ? newDisplayed : sectionDisplayed+newDisplayed;
 			});
 		}
 		if (scrollTop > 100 && !isHeaderShown) {
