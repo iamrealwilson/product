@@ -51,7 +51,10 @@ function Browse() {
 				var genres = {};
 				const endpoint =
 					category === 'series' ? SECTIONS.series.helpers.fetchTVGenres : SECTIONS.movies.helpers.fetchMovieGenres;
-				movieHttp.get(endpoint).then((response) => setGenres(() => response.data.genres));
+				movieHttp.get(endpoint).then((response) => {
+					console.log(response.data.genres);
+					setGenres(() => response.data.genres);
+				});
 				setSectionDisplayed(30);
 			} catch ({ response }) {
 				console.log(response);
