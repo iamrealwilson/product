@@ -73,6 +73,8 @@ function Browse() {
 		if (bottom) {
 			setSectionDisplayed((sectionDisplayed) => {
 				const newDisplayed = sectionDisplayed + 5;
+				console.log('newDisplayed --' + newDisplayed);
+				console.log('SECTIONS[category].sections.length --' + SECTIONS[category].sections.length);
 				return newDisplayed <= SECTIONS[category].sections.length ? newDisplayed : sectionDisplayed;
 			});
 		}
