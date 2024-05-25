@@ -48,12 +48,11 @@ function Browse() {
 	useEffect(
 		() => {
 			try {
-				var endpoint = "";
 				var genres = {};
-				movieHttp.get(endpoint).then((response) => 
-				  withCommonLog(response)
-				);
-				setSectionDisplayed(5);
+				const endpoint =
+					category === 'series' ? SECTIONS.series.helpers.fetchTVGenres : SECTIONS.movies.helpers.fetchMovieGenres;
+				movieHttp.get(endpoint).then((response) => setGenres(() => response.data.genres));
+				setSectionDisplayed(30);
 			} catch ({ response }) {
 				console.log(response);
 			}
