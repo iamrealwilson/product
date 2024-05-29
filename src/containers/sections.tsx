@@ -107,7 +107,7 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 				 :
 				 userDetails != null && (userDetails.email == "rubydoctor.1969@gmail.com")
 				 ?
-				 SECTIONS[category].sections.filter(section => section.title.includes("Remedial") || section.title.includes("Criminal") || section.title.includes("Commercial")).map((section, i) => {
+				 SECTIONS[category].sections.filter(section => section.title.includes("Political") || section.title.includes("Civil") || section.title.includes("Remedial") || section.title.includes("Criminal") || section.title.includes("Commercial")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :			
