@@ -31,7 +31,13 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Criminal")  || section.title.includes("Civil")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
-							})			
+							})	
+                 :
+				 userDetails != null && (userDetails.email == "espellargamae@gmail.com")
+				 ?
+				 SECTIONS[category].sections.filter(section => section.title.includes("Criminal")  || section.title.includes("Taxation")).map((section, i) => {
+								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
+							})									
 				 :
 				 userDetails != null && (userDetails.email == "access5@gmail.com" || userDetails.email == "access6@gmail.com" || userDetails.email == "access7@gmail.com" || userDetails.email == "access8@gmail.com")
 				 ?
