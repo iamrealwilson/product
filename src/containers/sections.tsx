@@ -33,11 +33,23 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})	
 				 :
+				 userDetails != null && (userDetails.email == "cortez.ann71@gmail.com")
+				 ?
+				 SECTIONS[category].sections.filter(section => section.title.includes("Political")  || section.title.includes("Remedial") || section.title.includes("Civil")  || section.title.includes("Criminal")  || section.title.includes("Commercial")).map((section, i) => {
+								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
+							})	
+				 :
 				 userDetails != null && (userDetails.email == "polarisphoebe@gmail.com")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Criminal")  || section.title.includes("Remedial")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
-							})				
+							})		
+				 :
+				 userDetails != null && (userDetails.email == "anniezaabubakar@gmail.com")
+				 ?
+				 SECTIONS[category].sections.filter(section => section.title.includes("Political")  ||  section.title.includes("Criminal")  || section.title.includes("Taxation")).map((section, i) => {
+								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
+							})									
 				 :
 				 userDetails != null && (userDetails.email == "rommelrn05@yahoo.com")
 				 ?
