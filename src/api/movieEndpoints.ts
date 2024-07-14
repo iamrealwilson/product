@@ -617,6 +617,10 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Commercial Lectures - Dean Serge Ceniza - Part 2',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90002&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Commercial Lectures - Atty. Erickson Balmes - Part 1',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90003&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
@@ -813,6 +817,10 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Commercial Lectures - Dean Serge Ceniza - Part 2',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90002&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Commercial Lectures - Atty. Erickson Balmes - Part 1',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90003&with_watch_providers=8&watch_region=PH`
 			}
 			
 		],
