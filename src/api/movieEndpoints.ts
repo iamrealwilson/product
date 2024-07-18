@@ -623,6 +623,18 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80306&with_watch_providers=8&watch_region=PH`
 			},
 			{
+				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 7',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80309&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 8',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80310&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 9',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80311&with_watch_providers=8&watch_region=PH`
+			},
+			{
 				title: 'Civil Lectures - Dean Myra Gallardo-Batungbakal - Part 1',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80307&with_watch_providers=8&watch_region=PH`
 			},
@@ -841,6 +853,18 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 6',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80306&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 7',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80309&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 8',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80310&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Civil Lectures - Atty. Judy Lardizabal - Part 9',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=80311&with_watch_providers=8&watch_region=PH`
 			},
 			{
 				title: 'Civil Lectures - Dean Myra Gallardo-Batungbakal - Part 1',
