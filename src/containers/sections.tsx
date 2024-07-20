@@ -207,12 +207,24 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							}) 		
 				 :
-				 userDetails != null && (userDetails.email == "jbquibolmba@gmail.com")
+				 userDetails != null && (userDetails.email == "charlesllb14xiii@gmail.com")
 				 ?
-				 SECTIONS[category].sections.filter(section => section.title.includes("Commercial") || section.title.includes("Political") || section.title.includes("Criminal")).map((section, i) => {
+				 SECTIONS[category].sections.filter(section => section.title.includes("Commercial") || section.title.includes("Remedial") || section.title.includes("Taxation") || section.title.includes("Criminal") || section.title.includes("Labor") || section.title.includes("Civil") || section.title.includes("Political")).map((section, i) => {
+								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
+							}) 	
+				 :
+				 userDetails != null && (userDetails.email == "jose.chrisabejo@gmail.com")
+				 ?
+				 SECTIONS[category].sections.filter(section => section.title.includes("Labor") || section.title.includes("Commercial") || section.title.includes("Taxation") || section.title.includes("Remedial") || section.title.includes("Civil") || section.title.includes("Political") || section.title.includes("Criminal")).map((section, i) => {
+								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
+							}) 
+				 :							
+ 				 userDetails != null && (userDetails.email == "jbquibolmba@gmail.com")
+				 ?
+				 SECTIONS[category].sections.filter(section => section.title.includes("Criminal") || section.title.includes("Commercial") || section.title.includes("Civil") || section.title.includes("Labor") || section.title.includes("Taxation") || section.title.includes("Political") || section.title.includes("Remedial")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							}) 		
- 				 :
+				 :
 				 userDetails != null && (userDetails.email == "roy.ladiasan@gmail.com")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Commercial") || section.title.includes("Taxation") || section.title.includes("Remedial") || section.title.includes("Civil") || section.title.includes("Political") || section.title.includes("Criminal")).map((section, i) => {
