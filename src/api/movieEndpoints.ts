@@ -661,6 +661,10 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Preweek - Legal Ethics - Dean Cecilio Duka',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90005&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Taxation - Atty. Lim',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90006&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
@@ -901,6 +905,10 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Preweek - Legal Ethics - Dean Cecilio Duka',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90005&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Taxation - Atty. Lim',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90006&with_watch_providers=8&watch_region=PH`
 			}
 			
 		],
