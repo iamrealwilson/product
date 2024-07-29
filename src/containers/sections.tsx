@@ -21,229 +21,229 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@1")
+				 userDetails != null && (userDetails.email === "preweek@1")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Taxation") || section.title.includes("Preweek - Commercial") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})	
 				 :
-				 userDetails != null && (userDetails.email == "preweek@2")
+				 userDetails != null && (userDetails.email === "preweek@2")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@3")
+				 userDetails != null && (userDetails.email === "preweek@3")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							}) 			
 				 :
-				 userDetails != null && (userDetails.email == "preweek@4")
+				 userDetails != null && (userDetails.email === "preweek@4")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Remedial") || section.title.includes("Preweek - Commercial") || section.title.includes("Preweek - Civil")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							}) 			
 				 :
-				 userDetails != null && (userDetails.email == "preweek@5")
+				 userDetails != null && (userDetails.email === "preweek@5")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Criminal") || section.title.includes("Preweek - Political") || section.title.includes("Preweek - Taxation")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@6")
+				 userDetails != null && (userDetails.email === "preweek@6")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Criminal") || section.title.includes("Preweek - Remedial")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@7")
+				 userDetails != null && (userDetails.email === "preweek@7")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@8")
+				 userDetails != null && (userDetails.email === "preweek@8")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Political") || section.title.includes("Preweek - Remedial") || section.title.includes("Preweek - Taxation") || section.title.includes("Preweek - Civil") || section.title.includes("Preweek - Labor") || section.title.includes("Preweek - Commercial") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@9")
+				 userDetails != null && (userDetails.email === "preweek@9")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Political") || section.title.includes("Preweek - Remedial") || section.title.includes("Preweek - Taxation") || section.title.includes("Preweek - Civil") || section.title.includes("Preweek - Labor") || section.title.includes("Preweek - Commercial") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@10")
+				 userDetails != null && (userDetails.email === "preweek@10")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Taxation") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@11")
+				 userDetails != null && (userDetails.email === "preweek@11")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Political") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@12")
+				 userDetails != null && (userDetails.email === "preweek@12")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Remedial") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@13")
+				 userDetails != null && (userDetails.email === "preweek@13")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@14")
+				 userDetails != null && (userDetails.email === "preweek@14")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Political") || section.title.includes("Preweek - Labor") || section.title.includes("Preweek - Commercial") || section.title.includes("Preweek - Remedial") || section.title.includes("Preweek - Civil") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@15")
+				 userDetails != null && (userDetails.email === "preweek@15")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@16")
+				 userDetails != null && (userDetails.email === "preweek@16")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@17")
+				 userDetails != null && (userDetails.email === "preweek@17")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Taxation") || section.title.includes("Preweek - Political") || section.title.includes("Preweek - Labor") || section.title.includes("Preweek - Commercial") || section.title.includes("Preweek - Remedial") || section.title.includes("Preweek - Civil") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@18")
+				 userDetails != null && (userDetails.email === "preweek@18")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Political") || section.title.includes("Preweek - Commercial") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@19")
+				 userDetails != null && (userDetails.email === "preweek@19")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Taxation") || section.title.includes("Preweek - Commercial")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@20")
+				 userDetails != null && (userDetails.email === "preweek@20")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@21")
+				 userDetails != null && (userDetails.email === "preweek@21")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Remedial") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@22")
+				 userDetails != null && (userDetails.email === "preweek@22")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Taxation") || section.title.includes("Preweek - Political") || section.title.includes("Preweek - Labor") || section.title.includes("Preweek - Commercial") || section.title.includes("Preweek - Remedial") || section.title.includes("Preweek - Civil") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@23")
+				 userDetails != null && (userDetails.email === "preweek@23")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Labor") || section.title.includes("Preweek - Political") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@24")
+				 userDetails != null && (userDetails.email === "preweek@24")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Taxation") || section.title.includes("Preweek - Remedial")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@25")
+				 userDetails != null && (userDetails.email === "preweek@25")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Remedial") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@26")
+				 userDetails != null && (userDetails.email === "preweek@26")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Political")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@27")
+				 userDetails != null && (userDetails.email === "preweek@27")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Taxation") || section.title.includes("Preweek - Political") || section.title.includes("Preweek - Commercial")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@28")
+				 userDetails != null && (userDetails.email === "preweek@28")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Political") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@29")
+				 userDetails != null && (userDetails.email === "preweek@29")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Labor") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@30")
+				 userDetails != null && (userDetails.email === "preweek@30")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Commercial") || section.title.includes("Preweek - Civil") || section.title.includes("Preweek - Remedial") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@31")
+				 userDetails != null && (userDetails.email === "preweek@31")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@32")
+				 userDetails != null && (userDetails.email === "preweek@32")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@33")
+				 userDetails != null && (userDetails.email === "preweek@33")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Taxation") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@33")
+				 userDetails != null && (userDetails.email === "preweek@33")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Taxation") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@34")
+				 userDetails != null && (userDetails.email === "preweek@34")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Civil") || section.title.includes("Preweek - Taxation") || section.title.includes("Preweek - Remedial") || section.title.includes("Preweek - Commercial")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@35")
+				 userDetails != null && (userDetails.email === "preweek@35")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Labor") || section.title.includes("Preweek - Taxation")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@36")
+				 userDetails != null && (userDetails.email === "preweek@36")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email == "preweek@37")
+				 userDetails != null && (userDetails.email === "preweek@37")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Political") ||  section.title.includes("Preweek - Taxation") || section.title.includes("Preweek - Commercial") || section.title.includes("Preweek - Civil") || section.title.includes("Preweek - Remedial") || section.title.includes("Preweek - Labor") || section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
