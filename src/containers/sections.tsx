@@ -249,15 +249,15 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email === "maehazellibed@gmail.com")
-				 ?
-				 SECTIONS[category].sections.filter(section => section.title.includes("Political") ||  section.title.includes("Taxation") || section.title.includes("Commercial") || section.title.includes("Civil") || section.title.includes("Remedial") || section.title.includes("Labor") || section.title.includes("Criminal")).map((section, i) => {
-								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
-							})
-				 :
 				 userDetails != null && (userDetails.email === "preweek@38")
 				 ?
 				 SECTIONS[category].sections.filter(section => section => section.title.includes("Preweek - Political") ||  section.title.includes("Preweek - Taxation") || section.title.includes("Preweek - Commercial") || section.title.includes("Preweek - Civil") || section.title.includes("Preweek - Remedial") || section.title.includes("Preweek - Labor") || section.title.includes("Preweek - Criminal")).map((section, i) => {
+								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
+							})
+				 :
+				 userDetails != null && (userDetails.email === "maehazellibed@gmail.com")
+				 ?
+				 SECTIONS[category].sections.filter(section => section.title.includes("Political") ||  section.title.includes("Taxation") || section.title.includes("Commercial") || section.title.includes("Civil") || section.title.includes("Remedial") || section.title.includes("Labor") || section.title.includes("Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
