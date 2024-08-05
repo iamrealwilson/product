@@ -665,6 +665,10 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Preweek - Taxation - Atty. Lim',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90006&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Criminal - Judge Campanilla',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90007&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
@@ -909,6 +913,10 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Preweek - Taxation - Atty. Lim',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90006&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Criminal - Judge Campanilla',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90007&with_watch_providers=8&watch_region=PH`
 			}
 			
 		],
