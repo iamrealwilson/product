@@ -669,6 +669,22 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Preweek - Criminal - Judge Campanilla',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90007&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part 1',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90008&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part 2',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90009&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part 3',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90010&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part 4',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90011&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
@@ -917,6 +933,22 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Preweek - Criminal - Judge Campanilla',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90007&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part 1',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90008&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part 2',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90009&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part 3',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90010&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part 4',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90011&with_watch_providers=8&watch_region=PH`
 			}
 			
 		],
