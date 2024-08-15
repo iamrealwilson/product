@@ -21,15 +21,15 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email === "preweek@63")
+				 userDetails != null && (userDetails.email === "preweek@64")
 				 ?
-				 SECTIONS[category].sections.filter(section => 	 section.title.includes("Preweek - Criminal")).map((section, i) => {
+				 SECTIONS[category].sections.filter(section => 	 section.title.includes("Preweek - Criminal") || section.title.includes("Preweek - Commercial")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 userDetails != null && (userDetails.email === "preweek@64")
+				 userDetails != null && (userDetails.email === "preweek@63")
 				 ?
-				 SECTIONS[category].sections.filter(section => 	 section.title.includes("Preweek - Commercial")).map((section, i) => {
+				 SECTIONS[category].sections.filter(section => 	 section.title.includes("Preweek - Criminal")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
