@@ -23,7 +23,7 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 				 :
 				 userDetails != null && (userDetails.email === "asiyahdee78@gmail.com")
 				 ?
-				 SECTIONS[category].sections.filter(section => 	 section.title.includes("Civil") || section.title.includes("Commercial")).map((section, i) => {
+				 SECTIONS[category].sections.filter(section => 	section.title.includes("Civil") || section.title.includes("Commercial")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
@@ -317,7 +317,7 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 				 :
 				 userDetails != null && (userDetails.email === "preweek@19")
 				 ?
-				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Legal Ethics") || section.title.includes("Preweek - Taxation") || section.title.includes("Preweek - Commercial")).map((section, i) => {
+				 SECTIONS[category].sections.filter(section => section.title.includes("Preweek - Legal") || section.title.includes("Preweek - Taxation") || section.title.includes("Preweek - Commercial")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
