@@ -671,19 +671,19 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90007&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part 1',
+				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part I',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90008&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part 2',
+				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part II',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90009&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part 3',
+				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part III',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90010&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part 4',
+				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part IV',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90011&with_watch_providers=8&watch_region=PH`
 			}
 		],
@@ -935,19 +935,19 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90007&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part 1',
+				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part I',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90008&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part 2',
+				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part II',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90009&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part 3',
+				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part III',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90010&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part 4',
+				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part IV',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90011&with_watch_providers=8&watch_region=PH`
 			}
 			
