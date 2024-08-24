@@ -672,7 +672,7 @@ export const SECTIONS: Sections = {
 			},
 			{
 				title: 'Preweek - Criminal - Judge Campanilla - Part II',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=900071&with_watch_providers=8&watch_region=PH`
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90071&with_watch_providers=8&watch_region=PH`
 			},
 			{
 				title: 'Preweek - Criminal - Judge Campanilla - Part III',
@@ -948,7 +948,7 @@ export const SECTIONS: Sections = {
 			},
 			{
 				title: 'Preweek - Criminal - Judge Campanilla - Part II',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=900071&with_watch_providers=8&watch_region=PH`
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90071&with_watch_providers=8&watch_region=PH`
 			},
 			{
 				title: 'Preweek - Criminal - Judge Campanilla - Part III',
