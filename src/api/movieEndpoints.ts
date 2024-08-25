@@ -697,6 +697,10 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Preweek - Commercial - Judge Rocille Aquino Tambasacan - Part 1',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90012&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Remedial - Atty. Henedino Brondial',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90013&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
@@ -973,6 +977,10 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Preweek - Commercial - Judge Rocille Aquino Tambasacan - Part 1',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90012&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Remedial - Atty. Henedino Brondial',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90013&with_watch_providers=8&watch_region=PH`
 			}
 			
 		],
