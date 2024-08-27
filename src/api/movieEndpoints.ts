@@ -717,6 +717,18 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Preweek - Commercial - Atty. Erickson Balmes - Part II',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90015&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Political - Atty. Victoria Loanzon - Part I',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90020&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Political - Atty. Victoria Loanzon - Part II',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90021&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Political - Atty. Victoria Loanzon - Part III',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90022&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
@@ -1009,6 +1021,18 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Preweek - Civil - Atty. Judy Lardizabal',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90014&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Political - Atty. Victoria Loanzon - Part I',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90020&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Political - Atty. Victoria Loanzon - Part II',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90021&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Political - Atty. Victoria Loanzon - Part III',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90022&with_watch_providers=8&watch_region=PH`
 			}
 			
 		],
