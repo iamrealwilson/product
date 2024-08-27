@@ -679,6 +679,14 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90072&with_watch_providers=8&watch_region=PH`
 			},
 			{
+				title: 'Preweek - Criminal - Judge Campanilla - Part IV',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90073&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Criminal - Judge Campanilla - Part V',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90074&with_watch_providers=8&watch_region=PH`
+			},
+			{
 				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part I',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90008&with_watch_providers=8&watch_region=PH`
 			},
@@ -701,6 +709,14 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Preweek - Remedial - Atty. Henedino Brondial',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90013&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Civil - Atty. Judy Lardizabal',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90014&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Commercial - Atty. Erickson Balmes - Part II',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90015&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
@@ -959,6 +975,14 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90072&with_watch_providers=8&watch_region=PH`
 			},
 			{
+				title: 'Preweek - Criminal - Judge Campanilla - Part IV',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90073&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Criminal - Judge Campanilla - Part V',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90074&with_watch_providers=8&watch_region=PH`
+			},
+			{
 				title: 'Preweek - Labor - Dean Pearlito Campanilla - Part I',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90008&with_watch_providers=8&watch_region=PH`
 			},
@@ -981,6 +1005,10 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Preweek - Remedial - Atty. Henedino Brondial',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90013&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Civil - Atty. Judy Lardizabal',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90014&with_watch_providers=8&watch_region=PH`
 			}
 			
 		],
