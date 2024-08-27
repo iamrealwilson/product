@@ -715,7 +715,7 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90014&with_watch_providers=8&watch_region=PH`
 			},
 			{
-				title: 'Preweek - Commercial - Atty. Erickson Balmes - Part II',
+				title: 'Preweek - Commercial - Atty. Erickson Balmes - Part I',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90015&with_watch_providers=8&watch_region=PH`
 			},
 			{
