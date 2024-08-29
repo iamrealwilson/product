@@ -719,6 +719,10 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90015&with_watch_providers=9&watch_region=PH`
 			},
 			{
+				title: 'Preweek - Commercial - Atty. Erickson Balmes - Part II',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90016&with_watch_providers=8&watch_region=PH`
+			},
+			{
 				title: 'Preweek - Political - Atty. Victoria Loanzon - Part I',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90020&with_watch_providers=8&watch_region=PH`
 			},
@@ -1025,7 +1029,11 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Preweek - Commercial - Atty. Erickson Balmes - Part I',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90015&with_watch_providers=8&watch_region=PH`
-			},		
+			},	
+			{
+				title: 'Preweek - Commercial - Atty. Erickson Balmes - Part II',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90016&with_watch_providers=8&watch_region=PH`
+			},			
 			{
 				title: 'Preweek - Political - Atty. Victoria Loanzon - Part I',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90020&with_watch_providers=8&watch_region=PH`
