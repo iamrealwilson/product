@@ -1035,10 +1035,13 @@ export const SECTIONS: Sections = {
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90016&with_watch_providers=8&watch_region=PH`
 			},			
 			{
+				title: 'Preweek - Commercial - Last Minute Tips -  Atty. Erickson Balmes - Part I',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90017&with_watch_providers=8&watch_region=PH`
+			},
+			{
 				title: 'Preweek - Political - Atty. Victoria Loanzon - Part I',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90020&with_watch_providers=8&watch_region=PH`
 			},
-
 			{
 				title: 'Preweek - Political - Atty. Victoria Loanzon - Part II',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90021&with_watch_providers=8&watch_region=PH`
