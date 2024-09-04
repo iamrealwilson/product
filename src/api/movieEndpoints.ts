@@ -733,6 +733,10 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Preweek - Political - Atty. Victoria Loanzon - Part III',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90022&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Political - Atty. Victoria Loanzon - Part IV',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90023&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
@@ -1053,6 +1057,10 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Preweek - Political - Atty. Victoria Loanzon - Part III',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90022&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Political - Atty. Victoria Loanzon - Part IV',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90023&with_watch_providers=8&watch_region=PH`
 			}
 			
 		],
