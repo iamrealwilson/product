@@ -737,6 +737,10 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Preweek - Political - Atty. Victoria Loanzon - Part IV',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90023&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Last Minute Tip - Speed Lecture Criminal Law',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=89891&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
@@ -1061,6 +1065,10 @@ export const SECTIONS: Sections = {
 			{
 				title: 'Preweek - Political - Atty. Victoria Loanzon - Part IV',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90023&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Last Minute Tip - Speed Lecture Criminal Law',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=89891&with_watch_providers=8&watch_region=PH`
 			}
 			
 		],

@@ -27,6 +27,50 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})	
 				 :
+				 userDetails != null && (
+				 userDetails.email === "lmt1@law.com"  || 
+				 userDetails.email === "lmt1@law.com"  ||
+				 userDetails.email === "lmt2@law.com"  ||
+				 userDetails.email === "lmt3@law.com"  ||
+				 userDetails.email === "lmt4@law.com"  ||
+				 userDetails.email === "lmt5@law.com"  ||
+				 userDetails.email === "lmt6@law.com"  ||
+				 userDetails.email === "lmt7@law.com"  ||
+				 userDetails.email === "lmt8@law.com"  ||
+				 userDetails.email === "lmt9@law.com"  ||
+				 userDetails.email === "lmt10@law.com" ||
+				 userDetails.email === "lmt11@law.com" ||
+				 userDetails.email === "lmt12@law.com" ||
+				 userDetails.email === "lmt13@law.com" ||
+				 userDetails.email === "lmt14@law.com" ||
+				 userDetails.email === "lmt15@law.com" ||
+				 userDetails.email === "lmt16@law.com" ||
+				 userDetails.email === "lmt17@law.com" ||
+				 userDetails.email === "lmt18@law.com" ||
+				 userDetails.email === "lmt19@law.com" ||
+				 userDetails.email === "lmt2@law.com"  ||
+				 userDetails.email === "lmt21@law.com" ||
+				 userDetails.email === "lmt22@law.com" ||
+				 userDetails.email === "lmt23@law.com" ||
+				 userDetails.email === "lmt24@law.com" ||
+				 userDetails.email === "lmt25@law.com" ||
+				 userDetails.email === "lmt26@law.com" ||
+				 userDetails.email === "lmt27@law.com" ||
+				 userDetails.email === "lmt28@law.com" ||
+				 userDetails.email === "lmt29@law.com" ||
+				 userDetails.email === "lmt30@law.com" ||
+				 userDetails.email === "lmt31@law.com" ||
+				 userDetails.email === "lmt32@law.com" ||
+				 userDetails.email === "lmt33@law.com" ||
+				 userDetails.email === "lmt34@law.com" ||
+				 userDetails.email === "lmt35@law.com" ||
+				 userDetails.email === "lmt36@law.com" 
+				 )
+				 ?
+				 SECTIONS[category].sections.filter(section => section.title.includes("Last Minute")).map((section, i) => {
+								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
+							})	
+				 :
 				 userDetails != null && (userDetails.email === "nancyfajardo@gmail.com")
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Criminal")).map((section, i) => {
