@@ -28,7 +28,7 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 							})	
 				 :
 				 userDetails != null && (
-				 userDetails.email === "lmt1@law.com"  || 
+				 userDetails.email === "lmt1@law.com" || 
 				 userDetails.email === "lmt1@law.com"  ||
 				 userDetails.email === "lmt2@law.com"  ||
 				 userDetails.email === "lmt3@law.com"  ||
