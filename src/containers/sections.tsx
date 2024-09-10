@@ -48,7 +48,7 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 				 userDetails.email === "lmt17@law.com" ||
 				 userDetails.email === "lmt18@law.com" ||
 				 userDetails.email === "lmt19@law.com" ||
-				 userDetails.email === "lmt2@law.com"  ||
+				 userDetails.email === "lmt20@law.com"  ||
 				 userDetails.email === "lmt21@law.com" ||
 				 userDetails.email === "lmt22@law.com" ||
 				 userDetails.email === "lmt23@law.com" ||
