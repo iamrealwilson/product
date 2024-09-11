@@ -97,8 +97,16 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 				 userDetails.email === "lmt66@law.com" ||
 				 userDetails.email === "lmt67@law.com" ||
 				 userDetails.email === "lmt68@law.com" ||
-				 userDetails.email === "lmt69@law.com" 
-				 )
+				 userDetails.email === "lmt69@law.com" ||
+				 userDetails.email === "lmt71@law.com" ||
+				 userDetails.email === "lmt72@law.com" ||
+				 userDetails.email === "lmt73@law.com" ||
+				 userDetails.email === "lmt74@law.com" ||
+				 userDetails.email === "lmt75@law.com" ||
+				 userDetails.email === "lmt76@law.com" ||
+				 userDetails.email === "lmt77@law.com" ||
+				 userDetails.email === "lmt78@law.com" ||
+				 userDetails.email === "lmt79@law.com" )
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Last Minute Tip")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
