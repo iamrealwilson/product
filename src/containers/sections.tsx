@@ -99,7 +99,6 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 				 userDetails.email === "lmt68@law.com" ||
 				 userDetails.email === "lmt69@law.com" 
 				 )
-				 )
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Last Minute Tip")).map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
