@@ -83,6 +83,10 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 				 userDetails.email === "lmt52@law.com" ||
 				 userDetails.email === "lmt53@law.com" ||
 				 userDetails.email === "lmt54@law.com" ||
+				 userDetails.email === "lmt55@law.com" ||
+				 userDetails.email === "lmt56@law.com" ||
+				 userDetails.email === "lmt57@law.com" ||
+				 userDetails.email === "lmt58@law.com"
 				 )
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Last Minute Tip")).map((section, i) => {
