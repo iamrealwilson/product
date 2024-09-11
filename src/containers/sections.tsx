@@ -48,7 +48,7 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 				 userDetails.email === "lmt17@law.com" ||
 				 userDetails.email === "lmt18@law.com" ||
 				 userDetails.email === "lmt19@law.com" ||
-				 userDetails.email === "lmt20@law.com"  ||
+				 userDetails.email === "lmt20@law.com" ||
 				 userDetails.email === "lmt21@law.com" ||
 				 userDetails.email === "lmt22@law.com" ||
 				 userDetails.email === "lmt23@law.com" ||
@@ -71,7 +71,18 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 				 userDetails.email === "lmt40@law.com" ||
 				 userDetails.email === "lmt41@law.com" ||
 				 userDetails.email === "lmt42@law.com" ||
-				 userDetails.email === "lmt43@law.com" 
+				 userDetails.email === "lmt43@law.com" ||
+				 userDetails.email === "lmt44@law.com" ||
+				 userDetails.email === "lmt45@law.com" ||
+				 userDetails.email === "lmt46@law.com" ||
+				 userDetails.email === "lmt47@law.com" ||
+				 userDetails.email === "lmt48@law.com" ||
+				 userDetails.email === "lmt49@law.com" ||
+				 userDetails.email === "lmt50@law.com" ||
+				 userDetails.email === "lmt51@law.com" ||
+				 userDetails.email === "lmt52@law.com" ||
+				 userDetails.email === "lmt53@law.com" ||
+				 userDetails.email === "lmt54@law.com" ||
 				 )
 				 ?
 				 SECTIONS[category].sections.filter(section => section.title.includes("Last Minute Tip")).map((section, i) => {
