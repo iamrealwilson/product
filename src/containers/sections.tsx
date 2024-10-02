@@ -21,7 +21,9 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 SECTIONS[category].sections.filter(section => return i < sectionDisplayed && <SliderContainer key={section.title} section={section} /> )
+				 SECTIONS[category].sections.map((section, i) => {
+								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
+							})
 				}
 			</Show.Sections>
 		</React.Fragment>
