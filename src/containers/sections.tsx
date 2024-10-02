@@ -21,11 +21,7 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
 							})
 				 :
-				 {userDetails != null && (userDetails.email == "regular101@legallex.com" ) 
-				 ? 
-				 SECTIONS[category].sections.filter(section => section.title.includes("Criminal")).map((section, i) => {
-								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
-							})
+				 SECTIONS[category].sections.filter(section => return i < sectionDisplayed && <SliderContainer key={section.title} section={section} /> )
 				}
 			</Show.Sections>
 		</React.Fragment>
