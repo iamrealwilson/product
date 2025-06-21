@@ -100,7 +100,8 @@ function Signin() {
 					</Form.Button>
 				</Form.FormGroup>
 				<Form.Text>
-					New to Legallex? <Form.Link to={ROUTES.SIGNUP.path}>Sign up now</Form.Link>.
+					New to Hiramawi? 
+					<!-- <Form.Link to={ROUTES.BROWSE.path}>...</Form.Link>. -->
 				</Form.Text>
 			</Form>
 			<FooterContainer />
