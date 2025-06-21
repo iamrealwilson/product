@@ -16,10 +16,9 @@ function SectionsContainer({ userDetails, category, sectionDisplayed }: Sections
 			<Show.Sections>
 				{userDetails != null && (userDetails.email == "dolo@law.com" || userDetails.email == "culpa@law.com" || userDetails.email == "c@c.com" || userDetails.email == "first@law.com" || userDetails.email == "law@law.com" || userDetails.email == "crim@law.com" || userDetails.email == "rcriminal@law.com" || userDetails.email == "dcriminal@law.com" || userDetails.email == "qcriminal@law.com") 
 				 ? 
-				 SECTIONS[category].sections.filter(section => section.title.includes("Criminal")).map((section, i) => {
-				                console.log("Criminal");
-								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
-							})
+				 SECTIONS[category].sections.map((section, i) => {
+					return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
+				})
 				 :
 				 SECTIONS[category].sections.map((section, i) => {
 								return i < sectionDisplayed && <SliderContainer key={section.title} section={section} />;
