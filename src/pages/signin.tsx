@@ -101,7 +101,7 @@ function Signin() {
 				</Form.FormGroup>
 				<Form.Text>
 					New to Hiramawi? 
-					<!-- <Form.Link to={ROUTES.BROWSE.path}>...</Form.Link>. -->
+					<Form.Link to={ROUTES.BROWSE.path}>...</Form.Link>.
 				</Form.Text>
 			</Form>
 			<FooterContainer />
