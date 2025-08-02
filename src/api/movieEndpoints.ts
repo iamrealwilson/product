@@ -465,14 +465,6 @@ export const SECTIONS: Sections = {
 			{
 				title: '2025 Preweek - Commercial - Atty. Erickson Balmes',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=99015&with_watch_providers=9&watch_region=PH`
-			},
-			{
-				title: '2025 Preweek - Commercial - Atty. Erickson Balmes',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=99015&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: '2025 Preweek - Commercial - Atty. Erickson Balmes',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=99015&with_watch_providers=8&watch_region=PH`
 			}
 		],
 		helpers: {
@@ -517,14 +509,6 @@ export const SECTIONS: Sections = {
 			{
 				title: '2025 Preweek - Commercial - Atty. Erickson Balmes',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=99015&with_watch_providers=9&watch_region=PH`
-			},
-			{
-				title: '2025 Preweek - Commercial - Atty. Erickson Balmes',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=99015&with_watch_providers=8&watch_region=PH`
-			},
-			{
-				title: '2025 Preweek - Commercial - Atty. Erickson Balmes',
-				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=99015&with_watch_providers=8&watch_region=PH`
 			}
 			
 		],
